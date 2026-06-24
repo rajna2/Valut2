@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>Valut - Premium Gear Rental</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">VALUT</div>
+          <ul class="nav-menu">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#browse">BROWSE</a></li>
+            <li><a href="#how-it-works">HOW IT WORKS</a></li> 
+            <li><a href="#signup">SIGN UP</a></li>
+          </ul>
+          <div class="auth-buttons">
+            <button class="btn-login">Log In</button>
+            <button class="btn-signup">Sign Up</button>
+          </div>
+        </div>
+    </nav>
+    
+    <section class="hero" id="home" style="background-image: url('https://images.unsplash.com/photo-1499343245400-cddc78a01317?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHBob3RvZ3JhcGhlcnxlbnwwfHwwfHx8MA%3D%3Dfit=crop'); background-size: cover; background-position: center; background-attachment: fixed;">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>VALUT</h1>
+        <p class="tagline">Rent Premium Gear from People Around You</p>
+        <p class="subtitle">Access cameras, drones, tools, and more without the price tag.</p>
+        <button class="btn-primary">Start Browsing</button>
+      </div>
+    </section>
+
+    <section class="browse" id="browse">
+      <div class="section-header">
+        <h2>What Do You Need?</h2>
+        <p>Explore thousands of items available for rent in your area.</p>
+      </div>
+      <div class="categories-grid">
+        <div class="category-card">
+          <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtZXJhc3xlbnwwfHwwfHx8MA%3D%3Dfit=crop" alt="Cameras" class="category-image">
+          <h3>Cameras</h3>
+          <p>DSLRs, mirrorless, film cameras</p>
+        </div>
+        <div class="category-card">
+          <img src="https://plus.unsplash.com/premium_photo-1714618849685-89cad85746b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZHJvbmVzfGVufDB8fDB8fHwwfit=crop" alt="Drones" class="category-image">
+          <h3>Drones</h3>
+          <p>Aerial photography & videography</p>
+        </div>
+        <div class="category-card">
+          <img src="https://images.unsplash.com/photo-1535016120720-40c646be5580?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dfit=crop" alt="Projectors" class="category-image">
+          <h3>Projectors</h3>
+          <p>Home theater & event projectors</p>
+        </div>
+        <div class="category-card">
+          <img src="https://images.unsplash.com/photo-1508873696983-2dfd5898f08b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FtcGluZyUyMGdlYXJ8ZW58MHx8MHx8fDA%3Dfit=crop" alt="Camping Gear" class="category-image">
+          <h3>Camping Gear</h3>
+          <p>Tents, sleeping bags, equipment</p>
+        </div>
+        <div class="category-card">
+          <img src="https://plus.unsplash.com/premium_photo-1663127162791-ef922fd1ab89?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHBvd2VyJTIwdG9vbHN8ZW58MHx8MHx8fDA%3Dfit=crop" alt="Power Tools" class="category-image">
+          <h3>Power Tools</h3>
+          <p>Drills, saws, professional tools</p>
+        </div>
+        <div class="category-card">
+          <img src="https://images.unsplash.com/photo-1602211844066-d3bb556e983b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3BvcnRzJTIwZXF1aXBtZW50fGVufDB8fDB8fHwwfit=crop" alt="Sports Equipment" class="category-image">
+          <h3>Sports Equipment</h3>
+          <p>Bikes, skis, boards, and more</p>
+        </div>
+        <div class="category-card">
+          <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWNhbCUyMGluc3RydW1lbnRzfGVufDB8fDB8fHwwfit=crop" alt="Musical Instruments" class="category-image">
+          <h3>Musical Instruments</h3>
+          <p>Guitars, keyboards, PA systems</p>
+        </div>
+        <div class="category-card">
+          <img src="https://images.unsplash.com/photo-1698602737825-08831895fc96?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGFydHklMjBlcXVpcG1lbnR8ZW58MHx8MHx8fDA%3Dfit=crop" alt="Party Equipment" class="category-image">
+          <h3>Party Equipment</h3>
+          <p>Speakers, lights, tables, chairs</p>
+        </div>
+        <div class="category-card">
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFjYm9vayUyMHByb3xlbnwwfHwwfHx8MA%3D%3Dfit=crop" alt="Electronics" class="category-image">
+          <h3>Electronics</h3>
+          <p>Laptops, monitors, tablets</p>
+        </div>
+        <div class="category-card">
+          <img src="https://images.unsplash.com/photo-1458731909820-5850bdcaee0b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJhYnklMjBzdHJvbGxlcnxlbnwwfHwwfHx8MA%3D%3Dfit=crop" alt="Baby Gear" class="category-image">
+          <h3>Baby Gear</h3>
+          <p>Strollers, car seats, cribs</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Items -->
+    <section class="featured">
+        <div class="section-header">
+            <h2>Featured Items</h2>
+            <p>Popular gear available for rent right now</p>
+        </div>
+        <div class="items-grid">
+            <div class="item-card">
+                <img src="https://images.unsplash.com/photo-1599664223843-9349c75196bc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2Fub24lMjBFT1MlMjBSNSUyMENhbWVyYXxlbnwwfHwwfHx8MA%3D%3Dfit=crop" alt="Canon EOS R5 Camera" class="item-image">
+                <div class="item-info">
+                    <h3>Canon EOS R5 Camera</h3>
+                    <p class="item-location">📍 San Francisco, CA</p>
+                    <p class="item-description">Professional mirrorless camera with 4K video</p>
+                    <div class="item-footer">
+                        <span class="price">$45<span class="per-day">/day</span></span>
+                        <div class="rating">⭐ 4.9 (128 reviews)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <img src="https://images.unsplash.com/photo-1611878583599-5a1ba474063b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8REpJJTIwQWlyJTIwMlMlMjBEcm9uZXxlbnwwfHwwfHx8MA%3D%3Dfit=crop" alt="DJI Air 2S Drone" class="item-image">
+                <div class="item-info">
+                    <h3>DJI Air 2S Drone</h3>
+                    <p class="item-location">📍 New York, NY</p>
+                    <p class="item-description">4K camera drone with 31 min flight time</p>
+                    <div class="item-footer">
+                        <span class="price">$35<span class="per-day">/day</span></span>
+                        <div class="rating">⭐ 4.8 (95 reviews)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <img src="https://media.istockphoto.com/id/1379438194/photo/beauty-of-camping.webp?a=1&b=1&s=612x612&w=0&k=20&c=5xN_jSt2ppUm9E0B_ZERx_uvmzapcrVRv0a-3vIJrXM=fit=crop" alt="Camping Tent Set" class="item-image">
+                <div class="item-info">
+                    <h3>Camping Tent Set</h3>
+                    <p class="item-location">📍 Denver, CO</p>
+                    <p class="item-description">4-person tent with sleeping bags included</p>
+                    <div class="item-footer">
+                        <span class="price">$25<span class="per-day">/day</span></span>
+                        <div class="rating">⭐ 4.7 (62 reviews)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <img src="https://media.istockphoto.com/id/1286401658/photo/cordless-hammer-screwdriver-drill-battery-charger-and-second-battery-in-carryin-case-on-white.webp?a=1&b=1&s=612x612&w=0&k=20&c=fNOnpnMoWBYGRiUOtEJOBeFtPiWLxFdoW4sbPyejbq8=fit=crop" alt="Makita Power Drill Kit" class="item-image">
+                <div class="item-info">
+                    <h3>Makita Power Drill Kit</h3>
+                    <p class="item-location">📍 Austin, TX</p>
+                    <p class="item-description">Professional drill set with all accessories</p>
+                    <div class="item-footer">
+                        <span class="price">$15<span class="per-day">/day</span></span>
+                        <div class="rating">⭐ 4.9 (156 reviews)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <img src="https://images.unsplash.com/photo-1673121414328-52eff37bc6d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TW91bnRhaW4lMjBCaWtlJTIwUHJvfGVufDB8fDB8fHwwfit=crop" alt="Mountain Bike Pro" class="item-image">
+                <div class="item-info">
+                    <h3>Mountain Bike Pro</h3>
+                    <p class="item-location">📍 Boulder, CO</p>
+                    <p class="item-description">Full suspension mountain bike, excellent condition</p>
+                    <div class="item-footer">
+                        <span class="price">$30<span class="per-day">/day</span></span>
+                        <div class="rating">⭐ 4.8 (87 reviews)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item-card">
+                <img src="https://plus.unsplash.com/premium_photo-1664194584291-cfc411d05998?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RWxlY3RyaWMlMjBLZXlib2FyZHxlbnwwfHwwfHx8MA%3D%3Dfit=crop" alt="Electric Keyboard" class="item-image">
+                <div class="item-info">
+                    <h3>Electric Keyboard</h3>
+                    <p class="item-location">📍 Los Angeles, CA</p>
+                    <p class="item-description">88-key weighted keyboard with stand</p>
+                    <div class="item-footer">
+                        <span class="price">$20<span class="per-day">/day</span></span>
+                        <div class="rating">⭐ 4.6 (44 reviews)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="section-header">
+            <h2>How It Works</h2>
+            <p>Rent gear in just 4 simple steps</p>
+        </div>
+        <div class="steps-container">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Search & Browse</h3>
+                <p>Find the gear you need by category, location, or search</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Pick Your Dates</h3>
+                <p>Select your rental dates and check availability</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Complete Payment</h3>
+                <p>Pay online securely with a credit card</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Pick Up & Enjoy</h3>
+                <p>Get the gear and enjoy your adventure</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Safety -->
+    <section class="trust-safety">
+        <div class="section-header">
+            <h2>Trust & Safety</h2>
+            <p>Your peace of mind is our priority</p>
+        </div>
+        <div class="trust-grid">
+            <div class="trust-card">
+                <div class="trust-icon">✓</div>
+                <h3>Identity Verified</h3>
+                <p>All users are verified before renting</p>
+            </div>
+            <div class="trust-card">
+                <div class="trust-icon">⭐</div>
+                <h3>Ratings & Reviews</h3>
+                <p>Real reviews from real users</p>
+            </div>
+            <div class="trust-card">
+                <div class="trust-icon">🛡️</div>
+                <h3>Damage Protection</h3>
+                <p>Security deposit covers accidental damage</p>
+            </div>
+            <div class="trust-card">
+                <div class="trust-icon">📱</div>
+                <h3>24/7 Support</h3>
+                <p>We're here if you need us</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign Up CTA -->
+    <section class="signup" id="signup">
+        <div class="signup-content">
+            <h2>Ready to Start?</h2>
+            <p>Join thousands of people saving money on gear they use once in a while.</p>
+            <div class="signup-buttons">
+                <button class="btn-primary-large">I Want to Rent Gear</button>
+                <button class="btn-secondary-large">I Want to List Items</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>VALUT</h4>
+                <p>Rent premium gear from people around you.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#browse">Browse Items</a></li>
+                    <li><a href="#">List Your Gear</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Safety Tips</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Valut. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
